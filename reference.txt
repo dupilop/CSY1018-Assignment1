@@ -1,0 +1,22 @@
+Sliding the picture:
+
+
+http://qnimate.com/creating-a-slider-using-html-and-css-only/
+
+Animated search button:
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_anim_search
+
+Twitter, facebook, RSS and Linked In:
+
+Facebook:
+http://login.create.net/images/icons/user/facebook_40x40.png
+
+Twitter:
+http://login.create.net/images/icons/user/twitter_40x40.png
+
+Linked In:
+https://socialmediawidgets.files.wordpress.com/2014/03/linkedin1.png?w=35&h=35
+
+
+RSS:
+https://socialmediawidgets.files.wordpress.com/2014/03/rss1.png?w=35&h=35
