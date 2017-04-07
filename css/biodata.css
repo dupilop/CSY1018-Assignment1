@@ -1,36 +1,41 @@
-
+/* This part is for body for changing background and font style*/
 body {
     background-color: rgba(0, 0, 0, 0.5);
-    
+    font-family: 'Amita';    
 }
+/* This part is for heading h1 for changing size and color*/
 h1{
     font-size: 30px;color: white;
     margin-left: 10%;
 }
+/* This part is for ul li for changing font size*/
 ul li{
     font-size: 12px;
 }
+/* This part is for h2 for changing color and font size*/
  h2 {
     color: white;
     font-size: 40px;
 }
+/* This part is for paragraph for changing color, font size and font style */
 p {
     color: white;
     font-family: verdana;
     font-size: 10px;
 }
+/* This part is used for changing background color and making space in left*/
 .rozyna{
     background-color: #222425;
     margin-left: -8px;
 }
+/* This part is used for managing font size, padding and flex properties */
 header{
-
     display: flex;
     flex-flow: row nowrap;
     font-size: 18px;
     padding-left: 0px;
 }
-
+/* This part is used for managing background, aligning, margin, flex properties*/
 .third ul{
     background: #222425;
     display: flex;
@@ -39,81 +44,83 @@ header{
     text-align: justify;
     margin-left: -8px;
 }
-
+/*  This part is used for padding, background, border, outline and making pointer while hover*/
 .third ul li{
     padding: 1% 3%;
-    background: #white;
     border: none;
     outline: 0;
     display: inline-block;
     cursor: pointer;
 }
+/* This part is used for giving some space in heading */
 header h1{
     padding-left: 30%;
 }
+/* This part is used for changing color adn removing line in links*/
 .third ul li a{
     text-decoration: none;
     color: white;
-  }
+}
+/* This part is used for changing color during hover*/
 .third ul li:hover{
     background: #4d5254;
 }
-    
+/* This part is used for managing height and width of image*/    
 .nav img{
     height: 200px;
     width: 200px;
 }
+/* This part is used for spacing and changing color*/
 h3{
     color: white;
     margin-left: 116px;
 }
+/* This part is used for managing color, font size and font style*/
 p {
     color: white;
     font-family: verdana;
     font-size: 15px;
 }
+/* This part is for header for padding, positioning, width, opacity, margin and using flex properties*/
 header{
     position: fixed;
     top: 0px;
     margin: auto;
     z-index: 100000;
     width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    opacity: 3;
 }
- .third{
+/* This part  is for making navigation bar fixed and giving opacity, margin, width*/
+.third{
     position: fixed;
     top: 50px;
     margin: auto;
     z-index: 100000;
     width: 100%;
+    opacity: 3;
 } 
-header{
-    opacity: 3;
-}
-.third{
-    opacity: 3;
-}
-
-header{
-    display: flex;
-    flex-flow: row nowrap;
-}
+/* This part is used for managing height, width, border radius*/
 .image{
     border-radius: 50%;
     width:60px;
     height:70px
 }
+/* This part is used for padding from top */
 section{
     padding-top: 180px;
- 
 }
-.outerbox{
+/* This part is used for padding from right */
+.kalpana{
     padding-right: 500px;
 }
+/* This part is used for padding from left anf changing color */
 .nav{
   
     padding-left: 100px;color: white; 
 }
-   /* This part is for the footer */
+   /* This part is for the footer changing color, background, margin, alignment, padding */
 footer{
     background: #4d5254;
     color: white;
@@ -122,31 +129,34 @@ footer{
     padding-left: 10px;
     padding-right: 10px;
 }
-.sliderbox img {
+/* This part is used for managing height and width of image */
+.dupi img {
     height: 500px;
     width: 800px;
 }
+/* This part is used for flex properties*/
 .abhinav{
     display: flex;
     flex-flow: row nowrap;
 }
-.outerbox{
+/* This part is used for width and overflow */
+.kalpana{
     overflow: hidden;
     width: 100%;
 }
-.sliderbox
-{
+/* This part is used for positioning, width and animation*/
+.dupi{
     position: relative;
     width: 3200px;
     animation: slide 7s infinite;
 }
-
-.sliderbox img
+/* This part is used for floating left */
+.dupi img
 
 {
     float: left;
 }
-
+/* This part is used for  making animations and sliding image using different percentage */
 @keyframes slide
     {
 
@@ -195,31 +205,34 @@ footer{
     left: -3200px;
     }
 }
+/* This part helps for making the page responsive in different mobile, tablets, etc */
 @media only screen and (max-width: 500px) { 
+/* this part is for navigation bar to display in colomn*/
 .third ul{
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.sliderbox img{      
+/* This part is used for managing height and width */
+.dupi img{      
     height: 150px;
     width: 250px;
 }
+/* This part is used for padding */
 .header {
     padding-left: 0px;
 }
-.outerbox{       
+/* This part is used for managing width and padding */
+.kalpana{       
     width: 75px;
     padding-right: 110px;
 }
+/* This part is used for displaying in column*/
 .abhinav{
     display: flex;
     flex-direction: column;
 }
-input[type=text]{
-    display: flex;
-    flex-direction: column;
-}
+/* This part is used for spacing from left*/
 .nav{   
     margin-left: -105px;
 }

@@ -1,45 +1,80 @@
 <!DOCTYPE html>
+ <!--Name: Abhinav Kaphle-->
+ <!--UNID: 17429439-->
+ <!--This is html tag which is the main tag for making website--> 
 <html>
-        <head>
-              <link rel="stylesheet" type="text/css" href="css\contact.css">
-              <link href='//fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
-        </head>
-        <body>
+<!--This is head tag which helps for managing top of the website-->
+    <head>
+        <!-- This <link> tag is used to link css and html-->
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <!-- It gives encoding to html-->
+        <meta charset="utf-8">
+        <!-- This is a tag for giving title-->
+        <title> My contact page</title>
+    </head>
+    <!--This is body tag that helps for managing body sector-->
+    <body>
+              <!--This is a header tag which is used for managing header-->
               <header class="rozyna">
+                  <!-- <a href> tag is used for linking the webpages-->
                   <a href="index.html">
+                      <!--<img> tag is used for putting image as logo in the website-->
                       <img src="images/logo.png"  class="images" alt="Mountain View" >
                   </a>
+                  <!-- <h1> tag is used for putting heading in website-->
                   <h1 class="header">
                       Contact Us
                   </h1>
               </header>
+              <!-- <div> tag class="first" is used for making navigation bar in the website-->
               <div class="first">
+                  <!--<ul> tag is used for making different unorder list-->
                   <ul>
+                    <!-- This <li> tag is used for making different options in the list-->
+                    <!-- <a href> tag is used to link different websites-->
                   	<li><a href="index.html">Home</a></li>
                     <li><a href="cv.html">Cv</a></li>
                     <li><a href="biodata.html">Biodata</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
               </div>
+              <!--  In this <section> tag the full contact form and image is stored-->
               <section class="section">
-                    <form method="post" action="" class="dupi">
+                    <!-- This <form> tag is used for creating a form in a website-->
+                    <form method="post" class="dupi">
+                        <!-- This <fieldset> tag is used for setting a definite field for a form-->
                         <fieldset>
+                            <!-- This <legend> tag is used for putting a heading for a form-->
                             <legend> Contact Form</legend>
+                            <!-- This tag is used for putting the label as First Name -->
                             <label> First Name: </label><br>
+                            <!-- This tag is used for create a tetbox for first name-->
                             <input type="text" placeholder="Enter first name" name="name" required><br><br>
+                            <!-- This tag is used for putting the label as Last Name -->
                             <label> Last Name: </label><br>
+                            <!-- This tag is used to create a textbox for last name -->
                             <input type="text" placeholder="Enter last name" name="name" required><br><br>
+                            <!-- This tag is used for putting the label as Address-->
                             <label> Address: </label><br>
-                            <input type="text" placeholder="Enter address"name="address" required> <br> <br>
+                            <!-- This tag is used  to create textbox for address -->
+                            <input type="text" placeholder="Enter address" name="address" required> <br> <br>
+                            <!-- This tag is used for putting the label as Email-->
                             <label> Email: </label><br>
-                            <input type="email" placeholder="Enter email"name="email" required><br><br>
+                            <!-- This tag is used to create email box for email id -->
+                            <input type="email" placeholder="Enter email" name="email" required><br><br>
+                            <!-- This tag is used for putting the label as Gender -->
                             <label> Gender: </label><br>
+                            <!-- This tag is used to create a radio button for male-->
                             <input type="radio" name="gender" value="male" checked>Male
+                            <!-- This tag is used to create a radio button for female -->
                             <input type="radio" name="gender" value="female">Female
                             <br>
                             <br>
+                            <!-- This tag is used for putting the label as Country-->
                             <label> Country: </label><br>
+                            <!-- This tag is used to create a select box for Country-->
                             <select id="country" name="country">
+                                <!-- This tag is used for keeping different option-->
                                 <option value="au">Australia</option>
                                 <option value="ca">Canada</option>
                                 <option value="usa">USA</option>
@@ -48,33 +83,49 @@
                             </select>
                             <br>
                             <br>
+                            <!-- This tag is used for putting the label as Feedback -->
                             <label>Feedback :  </label><br>
+                            <!-- This tag is used to create text area for writing feedback -->
                             <textarea name="Comments" rows="5" cols="70">Hy helloo abhinav kaphle</textarea>
                             <br><br><br>
+                            <!-- This tag is used for putting the label as Date -->
                             <label> date:  </label><br>
-                            <input type ="date" name="date" required><br><br>
+                            <!-- This tag is used for submitting form -->
                             <input type="submit" name="submit" value="submit"><br><br>
+                            <!-- This tag is used for reseting form-->
                             <input type="reset" value="Reset"><br><br>
                         </fieldset>
                     </form>
-                    <img src="images/slide/19.gif" class="contact">
+                    <!-- This tag is used to displaying image -->
+                    <img src="images/slide/19.gif" class="contact" alt="keyrun">
               </section>
+               <!--<footer> tag is used for making footer of the website-->
               <footer>
+                    <!-- This div is used for making a seperate social media icons in a line-->
                     <div>
-                        <a href="[full link to your Twitter]">
+                        <!-- This tag is used for linking twitter-->
+                        <a href="www.twitter.com">
+                            <!--This tag is used for putting image of twitter in footer-->
                             <img title="Twitter" alt="Twitter" src="images/twitter1.png" width="35" height="35" />
                         </a>
-                        <a href="[full link to your LinkedIn]">
+                        <!-- This tag is used for linking LinkedIn-->
+                        <a href="www.LinkedIn.com">
+                            <!-- This tag is used for putting image of LinkedIn in footer-->
                             <img title="LinkedIn" alt="LinkedIn" src="images/linkedin1.png" width="35" height="35" />
                         </a>
-                        <a href="[full link to your Facebook page]">
+                        <!-- This tag is used  for linking facebook-->
+                        <a href="www.facebook.com">
+                            <!-- This tag is used for putting image of facebook in footer-->
                             <img title="Facebook" alt="Facebook" src="images/facebook1.png" width="35" height="35" />
                         </a>
-                        <a href="[full link to your RSS feed]">
+                        <!-- This tag is used for linking RSS-->
+                        <a href="www.RSS.com">
+                            <!-- This tag is used for putting image of RSS in footer-->
                             <img title="RSS" alt="RSS" src="images/rss1.png" width="35" height="35" />
                         </a>
                     </div>
-                    	 @Copyright 2017 					Developed By: Abhinav Kaphle 
+
+                    @Copyright 2017           Developed By: Abhinav Kaphle
               </footer>
-        </body>
+    </body>
 </html>

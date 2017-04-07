@@ -1,139 +1,113 @@
-
+/* This part is for body for changing background and font style*/
 body {
     background-color: rgba(0, 0, 0, 0.5);
-    font-family: 'Amita';
-    
 }
+/* This part is for heading h1 for changing size and color*/
 h1{
     font-size: 30px;
     margin-left: 116px;
     color: white; 
 }
+/* This part is for h2 for changing color and font size*/
 h2 {
     color: white;
     font-size: 40px;
 }
+/* This part is for paragraph for changing color, font size and font style */
 p {
     color: white;
     font-family: verdana;
     font-size: 10px;
 }
+/* This part is for ul li for changing font size*/
 ul li{
     font-size: 12px;
 }
+/* This part is for header for padding, positioning, width, opacity, margin and using flex properties*/
 header{
-
     display: flex;
     flex-flow: row nowrap;
     background-color: #222425;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    z-index: 100000;
+    width: 100%;
+    opacity: 3;
 }
+/* This part  is for making navigation bar fixed and giving opacity, margin, width*/
+ .first{
+    position: fixed;
+    top: 50px;
+    margin: auto;
+    z-index: 100000;
+    width: 100%;
+    opacity: 3;
+}
+/* This part is used for changing background and making navigation bar using flex properties and designing as flex-end*/
 .first ul{
     background: #222425;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     text-align: justify;
+    margin-left: -8px;
 }
+/* This part is used for giving padding , background, border, outline, and making pointer while hover*/
 .first ul li{
     padding: 1% 3%;
-    background: #white;
     border: none;
     outline: 0;
     display: inline-block;
     cursor: pointer;
 }
+/* This part is for maintaining padding in the h1 of heading sector */
 header h1{
-    padding-left: 20%;
+    padding-left: 30%;
 }
+/* This part is used for changing color and removing line on link*/
 .first ul li a{
     text-decoration: none;
     color: white;
   }
+ /* This part is used for changing color during hover*/
 .first ul li:hover{
     background: #4d5254;
-}    
+}  
+/* This part is used for maintaining height and width of image */  
 .nav img{
     height: 200px;
     width: 200px;
 }
-h1, h2,h3,{
-    color: white;
-    margin-left: 116px;
-}
-p {
-    color: white;
-    font-family: verdana;
-    font-size: 15px;
-}
-header{
-    position: fixed;top: 0px;margin: auto;z-index: 100000;width: 100%;
-}
- .first{
-    position: fixed;top: 50px;margin: auto;z-index: 100000;width: 100%;
-}
- 
-header{
-    opacity: 3;
-}
-.first{
-    opacity: 3;
-}
-
-header{
-    display: flex;
-    flex-flow: row nowrap;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.first ul{
-    background: #222425;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    text-align: justify;
-    margin-left: -8px;
-}
-.first ul li{
-
-    padding: 1% 3%;
-    background: #white;
-    display: block;
- 
-}
+/* This part is used for changing making space in left*/
 .rozyna{
     margin-left: -8px;
 }
+/*  This part is used for maintaining width, height, margin */
 .contact{
     width: 600px;
     height: 600px;
     margin-top: 7px;
-  }
-header h1{
-    padding-left: 30%;
-}
-
-.first ul li a{
-    text-decoration: none;
-    color: white;
-  }
-.first ul li:hover{
-    background: #4d5254;
-}
-section{
+ }
+/* This part is used for maintaining padding in section part */
+ section{
     padding-top: 200px;
     padding-left: 10px;
     padding-right: 10px;
  }
+ /* This part is used for making proper flex properties */
 .section{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
 }
+/* This part is used for managing width , height, border radius of image or logo */
 .images{
     border-radius: 50%;
     width:60px;
     height:70px; 
 }
+/* this part is used for making proper text box for name , email by managing width, position, padding, transition, etc */
 input[type=text], input[type=email] {
     width: 300px;
     box-sizing: border-box;
@@ -147,9 +121,11 @@ input[type=text], input[type=email] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
+/* This part is used for making proper focus on text box while  clicking */
 input[type=text]:focus {
     width: 100%;
 }
+/* This part is used for create a select box for Country by maintaining its width, padding background and border */
 select {
     width: 100%;
     padding: 16px 20px;
@@ -157,49 +133,57 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
 }
+/* This par is used for maintaining footer by managing background, margin, alignment, padding, text color */
 footer{
   background: #4d5254;
   color: white;
   margin-top: 1%;
   text-align: center;
-  padding-left: 10px;padding-right: 10px;
 }
-@media only screen and (max-width: 500px) {
+/* This part helps for making the page responsive in different mobile, tablets, etc */
+@media only screen and (max-width: 450px) {
+/* this part is for navigation bar to display in colomn*/
 .first ul{
   display: flex;
   flex-direction: column;
   width: 100%;        
 } 
+/* This part is used for maintaning padding and margin for heading for making responsive */
 .header {
   padding-left: 0px;
   margin-left: 11px
 }
+/* This part is used for displaying in column */
 .abhinav{
   display: flex;
   flex-direction: column;
 }
-input[type=text]{
-  display: flex;
-  flex-direction: column;
-}
+/* This part is used for displaying section in column */
 .section{
   display: flex;
   flex-direction: column;
 }
+/* This part is used for giving some space from left */
 .rozyna{
   margin-left: -18px;
  }
+ /* This part is used for giving some space from top */
  .first{
   margin-top: 2px;
- }   
+ } 
+/* This part is used for managing width */  
 .dupi{
   width: 100%;
 }
+/* This part is used for giving proper height and width */
 .contact{
   height: 100px;
   width: 100px;
- }
+}
+/* This part is used for displaying text box in column managing margin, border, width and padding */
 input[type=text]{
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
   margin-top: 10px;
   width: 71%;
@@ -207,9 +191,11 @@ input[type=text]{
   border-radius:5px;
   border:1px solid #7ac9b7;
 }
+/* This part is used for managing email box by width */
 input[type=email]{
   width: 224px;
 }
+/* This part is used for giving design to submit button and reset button and managing them */
 input[type=submit], input[type=reset]{
   margin-bottom: 20px;
   width:100%;
@@ -221,6 +207,7 @@ input[type=submit], input[type=reset]{
   font-size:15px;
   cursor:pointer;
 }
+/* This part is used for managing text area by width, padding, margin and border */ 
 textarea{
   width:100%;
   padding: 0px;
@@ -230,10 +217,10 @@ textarea{
   margin-bottom: 20px;
   resize:none;
 }
+/* This part is used for maintaining image height and width */
 .section img{
   height: 226px;
   width: 256px;
 }
 
 }
-
